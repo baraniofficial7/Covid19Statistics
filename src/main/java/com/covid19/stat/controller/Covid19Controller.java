@@ -23,7 +23,7 @@ import com.covid19.stat.service.Covid19Service;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-@CrossOrigin(origins = "https://covid19-india-statistics.herokuapp.com/")
+@CrossOrigin(origins = "http://covid19-india-statistics.herokuapp.com")
 @Controller
 public class Covid19Controller implements ErrorController{
 	@Autowired
